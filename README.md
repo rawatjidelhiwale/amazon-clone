@@ -1,8 +1,8 @@
 # 🛒 Amazon Clone
 
-A responsive front-end clone of the Amazon homepage built using **HTML** and **CSS**.
+A front-end clone of the Amazon homepage built using **HTML** and **CSS**.
 
-🔗 **Live Demo**: [Click here to view](https://rawatjidelhiwale.github.io/amazon-clone/)
+🔗 **Live Demo**: [View Site](https://rawcdn.githack.com/rawatjidelhiwale/amazon-clone/f3647452a1bd8704f793280fa485f53eb248d175/index.html)
 
 ## 📌 Features
 
