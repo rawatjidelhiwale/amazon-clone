@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap");
+
+* {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  width: 100px;
+  height: 60px;
+}
+.logo {
+  background-image: url("https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-260nw-2333488123.jpg");
+  background-size: cover;
+  width: 115%;
+  height: 60px;
+}
+.border1{
+  border: 2px transparent;
+}
+.border {
+  border: 2px transparent;
+}
+.border:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.add-first:first-child {
+  font-size: 0.85rem;
+  color: #d3d3d3;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.add-second {
+  font-size: 1rem;
+  margin-left: 7px;
+  color: white;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-search {
+  width: 580px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+.search-select {
+  background-color: #f3f3f3;
+  height: 36px;
+  width: 51px;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.search-input {
+  height: 36px;
+  border: none;
+
+  width: 100%;
+}
+.search-icon {
+  background-color: #ff9900;
+  height: 40px;
+  width: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.box-3 {
+  display: flex;
+  /*align-items:center;
+  justify-content:center;*/
+}
+.hello {
+  font-size: 14px;
+}
+.hello-2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart {
+  padding: 9px;
+  font-weight: 600;
+}
+.cart i {
+  font-size: 29px;
+}
+.panel {
+  background-color: #232f3e;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 16px;
+  color: white;
+  font-size: 17px;
+}
+
+.end {
+  margin-left: 223px;
+  font-weight: 600;
+  justify-content: flex-end;
+}
+.hero-section {
+  background-image: url("https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg");
+  height: 370px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  border: 2px solid white;
+  background-color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 34px;
+  width: 95%;
+  padding: 12px;
+  font-weight: 400;
+}
+.hero-msg a {
+  color: #007185;
+}
+body {
+  background-color: #d3d3d3;
+}
+.box {
+  height: 323px;
+  width: 23%;
+  margin: 10px;
+  background-color: white;
+}
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-img {
+  margin: 10px;
+  height: 234px;
+  padding: 20px 9px 15px 9px;
+  background-image: cover;
+  background-repeat: no-repeat;
+}
+.box-content {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.box1 p {
+  color: blue;
+  padding-left: 19px;
+}
+.box2-img {
+  margin-top: 10px;
+  width: 100%;
+  height: 234px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box2 p {
+  color: blue;
+  padding-left: 19px;
+  margin-top: 12px;
+}
+.box3-img {
+  margin-top: 10px;
+  width: 100%;
+  height: 234px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box3 p {
+  color: blue;
+  padding-left: 19px;
+  margin-top: 12px;
+}
+.box4-img {
+  margin-top: 10px;
+  width: 100%;
+  height: 234px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box4 p {
+  color: blue;
+  padding-left: 19px;
+  margin-top: 12px;
+}
+.straight-line{
+  margin:auto;
+  margin-top:12px;
+  height:270px;
+  width:98%;
+  background-color:white;
+}
+.item{
+  display:flex;
+  margin-top:15px;
+  justify-content:space-evenly;
+}
+.items{
+  border:2px solid white;
+  height:200px;
+  width:25%;
+}
+.item-1{
+  background-image:url("https://justintime.in/cdn/shop/products/T1202101104100.jpg?v=1682058665");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-1{
+  background-image:url("https://justintime.in/cdn/shop/products/T1202101104100.jpg?v=1682058665");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-1{
+  background-image:url("https://justintime.in/cdn/shop/products/T1202101104100.jpg?v=1682058665");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-2{
+  background-image:url("https://images.meesho.com/images/products/370924686/q0ad8_512.jpg"); 
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-3{
+  background-image:url("https://s2.r29static.com/bin/entry/44e/720x1080,85/1783544/image.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+
+}
+.item-4{
+  background-image:url("https://ronin.pk/cdn/shop/files/R-1500HeadphoneBlue1_d67f054b-b52d-42a3-9a50-9feb52dca9b3.png?v=1738165928");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-5{
+  background-image:url("https://pexpo.in/cdn/shop/files/StereoBlueInfomative1.jpg?v=1695107439&width=1946");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-6{
+  background-image:url("https://bellavitaluxury.co.in/cdn/shop/files/Ocean-01_0992b3b9-62d7-48a7-82f3-3fcbf772fc61.jpg?v=1718103522");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.straight-line h2{
+  padding-top:12px;
+  padding-left:22px;
+}
+.ending{
+  background-color:white;
+  height:200px;
+  margin-top:23px;
+}
+.box-footer{
+  margin-top:23px;
+ height:250px;
+  background-color:white;
+}
+.end-text{
+  display:flex;
+  gap:15px;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.box-footer{
+border:2px solid white;
+}
+.end-text{
+  border:2px solid #D3D3D3;
+  border-radius:3px;
+  margin-top:53px;
+  padding:29px;
+}
+.end-text button{
+ background-color:yellow;
+  border-radius:25px;
+  padding:10px 153px;
+}
+.end-text p{
+  font-size:12px;
+}
+.last-second{
+  margin-top:45px;
+  background-color:#808c94;
+  height:43px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+.footer {
+  background-color: #282f38;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+.footer-item{
+  display:flex;
+  flex-direction:column;
+  margin-top:43px;
+  margin-left:36px;
+  gap:15px;
+}
+.footer-item a{
+  color:#D3D3D3;
+ text-decoration:none;
+ font-size:13px;
+}
+.font{
+  color:white;
+  font-size:16px;
+  font-weight:600;
+}
+.end-line{
+  height:1px;
+  background-color:#D3D3D3;
+}
+.end-box{
+  display:flex;
+  gap:10px;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+  height:139px;
+  background-color:#282f38;
+}
+.end-box button{
+  padding:12px 23px 12px 12px;
+  border:1px solid #D3D3D3;
+  border-radius:2px;
+  color:#D3D3D3;
+  background-color:#282f38;
+}
+.end-box button i{
+  padding-right:10px;
+}
+.end-box :nth-child(3){
+ padding-left:17px; 
+}
+.ending-footer{
+  height:320px;
+  color:grey;
+  background-color:#1a1f25;
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.final-content{
+  display:flex;
+  flex-direction:column;
+  margin-top:32px;
+}
+.final-content a:hover {
+  text-decoration: underline;
+}
+.khatam{
+  font-size:10px;
+  color:white;
+}
+.ending-footer {
+  background-color: #1a1f25;
+  color: #d3d3d3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 60px;
+  gap: 20px;
+}
+
+.final-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.final-content a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.final-content a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.khatam {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+
+
