@@ -10,7 +10,3 @@ A responsive front-end clone of the Amazon homepage built using **HTML** and **C
 - Navigation bar with category links
 - Product sections with images and hover effects
 - Footer with multi-column layout
-- Fully responsive design (mobile-friendly)
-
-## 📁 Folder Structure
-
